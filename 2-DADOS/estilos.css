@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    display: block;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dado{
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.fila{
+    width: 100%;
+    display: flex;
+}
+
+.punto{
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dado1{
+    justify-content:center;
+    align-items: center;
+}
+
+.dado2 .fila:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.dado2 .fila:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.dado3 .fila:nth-child(1){
+    justify-content:flex-end;
+}
+
+.dado3 .fila:nth-child(2){
+    justify-content: center;
+}
+
+.dado4 .fila:nth-child(1){
+    justify-content: space-between;
+}
+
+.dado4 .fila:nth-child(2){
+    justify-content: space-between;
+}
+
+.dado5 .fila:nth-child(1){
+    justify-content: space-between;
+}
+.dado5 .fila:nth-child(2){
+    justify-content: center;
+}
+
+.dado5 .fila:nth-child(3){
+    justify-content: space-between;
+}
+
+.dado6 .fila:nth-child(1){
+    justify-content: space-between;
+}
+
+.dado6 .fila:nth-child(2){
+    justify-content: space-between;
+}
+
+.dado6 .fila:nth-child(3){
+    justify-content: space-between;
+}
+
+

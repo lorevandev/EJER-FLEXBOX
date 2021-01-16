@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+ }
+
+ html, body{
+     height: 100%;
+ }
+
+body{
+    background-color: #1da1f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.tweet{
+    background-color:white;
+    width: 620px;
+    border-radius: 8px;
+    padding:20px;
+    margin-top: 15%; 
+}
+
+.header{
+    display: flex;
+    background-color:coral;
+    align-items: center;
+}
+
+.tweet-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.linea{
+    margin-top: 10px;
+    opacity: 0.1;
+    border-style: solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numeros{
+    display: flex;
+}
+
+.likes{
+    margin-left: 15px;
+}
